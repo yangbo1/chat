@@ -9,9 +9,13 @@
     <packaging>pom</packaging>
     <version>0.0.1-SNAPSHOT</version>
     <modules>
-        <module>chat-parent</module>
         <module>chat-common</module>
+        <module>chat-parent</module>
     </modules>
-
+    <parent>
+        <artifactId>chat-parent</artifactId>
+        <groupId>com.yb.chat</groupId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
 
 </project>
